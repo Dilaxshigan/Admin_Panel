@@ -1,0 +1,9 @@
+.nav-link.active {
+    background-color: #ff4d4d !important; /* Override Bootstrap's default background color */
+}
+.btn-custom{
+    background-color: #ff4d4d;
+}
+.btn-custom:hover{
+    background-color: #ff4d4d;
+}
