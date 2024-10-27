@@ -1,0 +1,8 @@
+.custom-class .page-item.active .page-link {
+    background-color:white;
+    border-color: black;
+}
+
+.custom-class .page-link {
+    color: black;
+}

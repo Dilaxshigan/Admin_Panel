@@ -95,7 +95,7 @@
             title: "Review Successfully Added",
             text: "Details saved",
             button: "OK",
-            timer: 3000,
+            timer: 4000,
         });
     });
 </script>
