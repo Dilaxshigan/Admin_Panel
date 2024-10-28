@@ -30,8 +30,8 @@
         <div class="col">
             <div class="container mt-4 mx-auto">
                 <div class="d-flex align-items-center w-100 justify-content-between bg-dark rounded" style="height: 56px;">
-                     <a href="{{ route('review') }}" class="active fs-5 text-white text-decoration-none ms-2 pt-1 d-block"><img src="{{ asset('img/settings.svg') }}" class="img-fluid" alt="">  Review Management</a>
-                      <a href="{{ route('add_review') }}" class="btn btn-custom fs-5 text-white me-2 py-0 px-4">+ Add Review</a>
+                     <a href="{{ route('product') }}" class="active fs-5 text-white text-decoration-none ms-2 pt-1 d-block"><img src="{{ asset('img/settings.svg') }}" class="img-fluid" alt="">  Review Management</a>
+                      <a href="{{ route('add_product') }}" class="btn btn-custom fs-5 text-white me-2 py-0 px-4">+ Add Review</a>
                 </div>
 
                 <div class="table-responsive  row justify-content-center my-4">

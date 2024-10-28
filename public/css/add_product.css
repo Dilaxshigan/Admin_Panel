@@ -1,0 +1,8 @@
+input[type="file"]::-webkit-file-upload-button{
+    background-color: #ff4d4d;
+    color:#fff;
+}
+input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #d94444;
+    color: #fff;
+}

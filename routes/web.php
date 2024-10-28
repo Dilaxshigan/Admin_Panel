@@ -12,6 +12,7 @@ Route::get("/delete-review/{id}", [reviewController::class, 'delete_review'])->n
 Route::get("/edit-review/{id}", [reviewController::class, 'edit_review'])->name('edit_review');
 Route::post("/update-review/{id}", [reviewController::class, 'update_review'])->name('update_review');
 
-
-
 Route::get("/product", [productController::class, 'product'])->name('product');
+Route::get("/add-product", [productController::class, 'add_product'])->name('add_product');
+Route::post("/store-product", [productController::class, 'store_product'])->name('store_product');
+Route::get("/delete-product/{id}", [productController::class, 'delete_product'])->name('delete_product');
